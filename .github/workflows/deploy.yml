@@ -1,7 +1,9 @@
 name: Build and Deploy
 
 on:
-  workflow_dispatch: {}
+  push:
+    branches:
+      - dev
 
 env:
   BUCKET_NAME : "typescript-express-artifact-2"
