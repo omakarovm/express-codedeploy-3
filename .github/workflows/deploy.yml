@@ -5,7 +5,7 @@ on:
 
 env:
   BUCKET_NAME : "typescript-express-artifact-2"
-  AWS_REGION : "ap-south-1"
+  AWS_REGION : "eu-central-1"
   GITHUB_REF: "main"
 
 
